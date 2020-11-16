@@ -11,7 +11,7 @@ $(document).ready(function() {
             salary: {
                 required: true,
                 min: 0,
-                max: 250000,
+                max: 100000,
                 number: true
             },
             credit: {
@@ -23,7 +23,7 @@ $(document).ready(function() {
             months: {
                 required: true,
                 min: 0,
-                max: 120,
+                max: 72,
                 number : true,
             }
         }
@@ -34,7 +34,7 @@ $(document).ready(function() {
             salary: {
                 required: "This value is required",
                 min: "Your must have a positive salary to qualify for a loan",
-                max: "If you make over $250,000 please see our VIP loan division",
+                max: "If you make over $100,000 please see our VIP loan division",
                 number: "Please enter a valid salary"
             },
             credit: {
@@ -46,7 +46,7 @@ $(document).ready(function() {
             months: {
                 required: "This value is required",
                 min: "You must enter a valid number of months",
-                max: "If you've worked at your job for 10 years or more, please see our VIP loan division",
+                max: "If you've worked at your job for 6 years or more, please see our VIP loan division",
                 number: "Please enter a valid number"
             }
         }
