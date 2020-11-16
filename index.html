@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Loan Approval</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="loan.css">
+</head>
+
+<body>
+<div class="container w-75">
+    <h1>Loan Approval</h1>
+
+    <fieldset>
+
+        <form id="loan-form">
+
+            <!-- input for salary -->
+            <div class="form-group">
+                <label for="salary">Enter Your Salary (Required)</label>
+                <input name="salary" id="salary" type="number" class="form-control">
+            </div>
+
+            <!-- input for credit score -->
+            <div class="form-group">
+                <label for="credit">Enter Your FICO Credit Score (Required)</label>
+                <input name="credit" id="credit" type="number" class="form-control">
+            </div>
+
+            <!-- input for months at job -->
+            <div class="form-group">
+                <label for="months">How Many Months Have You Worked At Your Current Job (Required)</label>
+                <input name="months" id="months" type="number" class="form-control">
+            </div>
+
+            <button class="btn btn-primary">Will My Loan Be Approved</button>
+        </form>
+    </fieldset>
+    <p id="message"></p>
+</div>
+</body>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.js"></script>
+<script src="loan.js"></script>
+
+</html>

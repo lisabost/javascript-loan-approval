@@ -1,0 +1,21 @@
+body {
+    background-color: #CCF;
+}
+
+label.error {
+    color: #F30;
+    font-weight: bold;
+}
+
+#message {
+    font-size: 2em;
+}
+
+
+.approved {
+    color: #60F;
+}
+
+.denied {
+    color: #F30;
+}
